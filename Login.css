@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("55.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    position: relative;
+    border-radius: 10%;
+}
+#login-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+    width: 500px;
+    height: 500px;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(235, 191, 70);
+    text-align: center;
+
+}
+#form-group{
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#l1{
+    color: white;
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+#email{
+    position: relative;
+    border: 2px ;
+    border-radius: 10px;
+    height: 30px;
+    top: 10px;
+    padding-left: 5px;
+}
+#l2{
+    color: white;
+    position: relative;
+    left: 5px;
+    top: 15px;
+}
+#password{
+    position: relative;
+    border: 2px ;
+    border-radius: 10px;
+    height: 30px;
+    top: 15px;
+    left: 5px;
+    padding-left: 5px;
+}
+#b1{
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 200px;
+    height: 25px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    background-color: green;
+}
+#form-footer{
+    width: 130px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 15px;
+    left: 80px;
+}
+a{
+    color: chocolate;
+    text-decoration: none;
+}

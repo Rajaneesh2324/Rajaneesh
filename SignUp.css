@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("Bugatti\ veyron.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    border-radius: 10%;
+}
+h1{
+    text-align: center;
+}
+#login-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+    width: 500px;
+    height: 500px;
+}
+#form-group{
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#l1{
+    color: white;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+#l2{
+    color: white;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+#l3{
+    color: white;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+#l4{
+    color: white;
+    position: relative;
+    left: 15px;
+    top: 25px;
+}
+#username{
+    position: relative;
+    border: 2px ;
+    border-radius: 10px;
+    height: 30px;
+    left: 50px;
+    top: 10px;
+    padding-left: 5px;
+}
+#mail{
+    position: relative;
+    border: 2px ;
+    border-radius: 10px;
+    height: 30px;
+    left: 67px;
+    top: 15px;
+    padding-left: 5px;
+}
+#password{
+    position: relative;
+    border: 2px ;
+    border-radius: 10px;
+    height: 30px;
+    left: 56px;
+    top: 20px;
+    padding-left: 5px;
+}
+#confirmpassword{
+    position: relative;
+    border: 2px ;
+    border-radius: 10px;
+    height: 30px;
+    left: 27px;
+    top: 25px;
+    padding-left: 5px;
+}
+#submit{
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 50px;
+    left: 50px;
+    width: 250px;
+    height: 25px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    background-color:orange;
+}
+.form-footer{
+    width: 200px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 60px;
+    left: 75px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

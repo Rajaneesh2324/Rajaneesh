@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    
+    <div id="form-container">
+        <form action="" id="signup-form" method="get" novalidate>
+            <fieldset>
+                <h1 style="font-family:cursive;color: rgb(235, 191, 70);">Signup</h1>
+            <div id="form-group">
+                <label for="username" id="l1">User Name</label>
+                <input type="text" id="username" name="username" required placeholder="Enter Username" minlength="3">
+                <span class="errors" id="usernameErrors"></span>
+            </div>
+            <div id="form-group">
+                <label for="email" id="l2">Email</label>
+                <input type="email" id="mail" name="mail" required placeholder="Enter email..">
+                <span class="errors" id="mailErrors"></span>
+            </div>
+            <div id="form-group">
+                <label for="password" id="l3">Password</label>
+                <input type="password" id="password" name="password" required placeholder="Enter password..">
+                <span class="errors" id="passwordErrors"></span>
+            </div>
+            <div id="form-group">
+                <label for="confirmpassword" id="l4">Confirm password</label>
+                <input type="password" id="confirmpassword" name="confirmpassword" required placeholder="Confirm password..">
+                <span class="errors" id="confirmPasswordErrors"></span>
+            </div>
+            <button type="submit" id="submit"  class="submit-btn">Submit</button> 
+        <div class="form-footer"style="color: whitesmoke;" >
+            already have an account? <a href="login.html">Login</a>
+        </div>
+    </form>
+</fieldset>
+    </div>
+
+
+
+
+
+
+
+    <script src="SignUp.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+
+    <div id="login-container">
+        <form action="" id="loginForm" novalidate >
+            <fieldset style="width: 300px; height: 200px; border: 2px solid black; border-radius: 10px;">
+                <h1> <b>User Login</b></h1>
+            <div id="form-group">
+                <lable for="email" id="l1">User Name</lable>
+                <input type="email" name="email" id="email" placeholder="Enter Username.." required>
+                <span id="emailError" class="errors"></span>
+            </div>
+            <div id="form-group">
+                <lable for="password" id="l2">Password</lable>
+                <input type="password" name="password" id="password" placeholder="Enter password.." required>
+                
+                <span class="errors" id="passwordError"></span>
+            </div>
+            <br>
+            <button type="submit" id="b1" class="submit-btn">Login</button>
+            <div id="form-footer">
+               <b> New User? <a href="C:\Users\ppara\OneDrive\Desktop\Legends\Project\SignUp.html">Signup</a></b>
+            </div>
+        </form>
+    </fieldset>
+    </div>
+    <script src="Login.js"></script>
+</body>
+</html>
